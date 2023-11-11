@@ -1,0 +1,17 @@
+img.vert-move {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+}
+
+img.horiz-move{
+    -webkit-animation: moverd 3s infinite alternate;
+    animation: moverd 3s infinite alternate;
+}
+@-webkit-keyframes moverd{
+    0%{ transform: translateX(0);}
+    100%{transform: translateX(-30px);}
+}
